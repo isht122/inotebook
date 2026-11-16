@@ -1,4 +1,4 @@
-# iNotemook
+# iNotebook
 
 A simple and safe notes app where every user keeps their own private notes. Built with the MERN stack.
 
