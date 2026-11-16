@@ -1,0 +1,87 @@
+GET http://localhost:5000/
+###
+POST http://localhost:5000/api/auth/createuser
+Content-Type: application/json
+
+{
+  "name": "test",
+  "email": "test@test.com",
+  "password": "123456"
+} 
+
+####
+POST http://localhost:5000/api/auth/createuser
+Content-Type: application/json
+
+{
+  "name": "rohit",
+  "email": "rohit@test.com",
+  "password": "123456"
+}
+
+####
+POST http://localhost:5000/api/auth/createuser
+Content-Type: application/json
+
+{
+  "name": "",
+  "email": "abc@test.com",
+  "password": "123456"
+}
+####
+POST http://localhost:5000/api/auth/createuser
+Content-Type: application/json
+
+{
+  "name": "",
+  "email": "xgttest.com",
+  "password": "1234"
+}
+
+
+####
+POST http://localhost:5000/api/auth
+Content-Type: application/json
+
+{
+  "name": "payal",
+  "email": "payal@test.com",
+  "password": "9876543"
+}
+####
+POST http://localhost:5000/api/auth
+Content-Type: application/json
+
+{
+  "name": "payal",
+  "email": "payal@test.com",
+  "password": "9876542"
+}
+####
+POST http://localhost:5000/api/auth
+Content-Type: application/json
+
+{
+  "name": "nidhi",
+  "email": "nidhi@test.com",
+  "password": "12345678"
+}
+####
+POST http://localhost:5000/api/auth
+Content-Type: application/json
+
+{
+  "name": "amit",
+  "email": "amit@test.com",
+  "password": "1234567"
+}
+####
+POST http://localhost:5000/api/auth
+Content-Type: application/json
+
+{
+  "name": "amita",
+  "email": "amita@test.com",
+  "password": "123467"
+}
+

@@ -1,0 +1,262 @@
+### Create user
+POST http://localhost:5000/api/auth̥/createuser
+Content-Type: application/json
+
+{
+  "name": "david",
+  "email": "david̥@test.com",
+  "password": "123456"
+}
+### Create user
+POST http://localhost:500̥0/api/auth/createuser
+Content-Type: application/json
+
+{
+  "name": "riya",
+  "email": "riya@test.com",
+  "password": "123458"
+}
+### Create user
+POST http://localhost:5000/ap̥i/auth/createuser
+Content-Type: application/json
+
+{
+  "name": "sam bahadur",
+  "email": "sambahadur@test.com",
+  "password": "123458"
+}
+
+### Create user
+POST http://localhost:5000̥/api/auth/createuser
+Content-Type: application/json
+
+{
+  "name": "harsh",
+  "email": "harsh@gmail.com",
+  "password": "123tub@8"
+}
+### Create user
+POST http://localhost:5000/api/auth/createuser
+Content-Type: application/json
+
+{
+  "name": "akshay",
+  "email": "akshay@gmail.com",
+  "password": "124tu@834"
+}
+### Log in
+POST http://localhost:5000/api/ḁuth/login
+Content-Type: application/json
+
+{
+  "email": "akshay@gmail.com",
+  "password": "124tu@834"
+}
+#### Get user Data
+POST http://localhost:5000/api/ḁuth̥/getuser
+Content-Type: application/json
+auth-token:  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNmFmNTNhN2UxMjRiZTYxODk2NjU3OGE2In0sImlhdCI6MTc5NDQ1NzMzMH0.ssXIsWsCRvOJ1txNL4SZO6iDdiTlsMT_ciwQG4Px4JA
+
+#### Fetch all notes
+GET http://localhost:5000/api/notes/fetchallnotes
+Content-Type: application/json
+auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiNmFlYWI1Zjc0ZjdhOWMwNzk0NjM2M2ZjIiwiaWF0IjoxNzkzNzc2MDg4fQ.QjjS-Ftzj2uXSN1nhtIP7I_14GnuULjGWX5TuNqy6RY
+
+### Create user
+GET http://localhost:5000/ap̥i/notes̥/fetchallnotes
+Content-Type: application/json
+auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNmFmNTNhN2UxMjRiZTYxODk2NjU3OGE2In0sImlhdCI6MTc5NDQ1NzMzMH0.ssXIsWsCRvOJ1txNL4SZO6iDdiTlsMT_ciwQG4Px4JA
+
+#### Add note
+POST http://localhost̥:5000/api/n̥otes/addnote
+Content-Type: application/json
+auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNmFmNTNhN2UxMjRiZTYxODk2NjU3OGE2In0sImlhdCI6MTc5NDQ1NzMzMH0.ssXIsWsCRvOJ1txNL4SZO6iDdiTlsMT_ciwQG4Px4JA
+
+{
+  "title": "My new note",
+  "description": "wake up early!",
+  "tag": "personal"
+}
+
+### Create user
+POST http://localhost:5000/api/auth/createuser
+Content-Type: application/json
+
+{
+  "name": "mohit",
+  "email": "mohit@gmail.com",
+  "password": "124tu@0"
+}
+#### Addnote
+POST http://localhos̥t:5000/api/notes/addnote
+Content-Type: application/json
+auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNmFlYjAxNWMxZDM1OTUyNjg0OTc2NjJkIn0sImlhdCI6MTc5Mzc4NjM5OX0.f97U9-axlfMHdZreYE1ZdwvVrZutelCiQB_O1eJlYAc
+
+{
+  "title": "My second note",
+  "description": "This is the description of my second note.",
+  "tag": "work"
+}̥
+
+
+
+
+### Log in
+POST http://localhost:5000/api/auth/login
+Content-Type: application/json
+
+{
+  "email": "mohit@gmail.com",
+  "password": "124tu@0"̥
+}
+
+#### Update note
+PUT http://localhost:5000/api/notes/updaten̥ote/6aeb02731d3595268497662e
+Content-Type: application/json
+auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNmFlYjAxNWMxZDM1OTUyNjg0OTc2NjJkIn0sImlhdCI6MTc5Mzc4NjM5OX0.f97U9-axlfMHdZreYE1ZdwvVrZutelCiQB_O1eJlYAc
+
+{
+  "title": "Updated note title",
+  "description": "Updated note description",
+  "tag": "updated"
+}
+
+#### Delete note
+DELETE http://localhost:5000/api/notes/deletenote/6aeb02731d3595268497662e
+Content-Type: application/json
+auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNmFlYjAxNWMxZDM1OTUyNjg0OTc2NjJkIn0sImlhdCI6MTc5Mzc4NjM5OX0.f97U9-axlfMHdZreYE1ZdwvVrZutelCiQB_O1eJlYAc
+
+### Create user
+POST http://localhost:5000/api/auth/createuser
+Content-Type: application/json
+
+{
+  "name": "bobby",
+  "email": "bobby@gmail.com",
+  "password": "123tu@8"
+}
+### Log in
+POST http://localhost:5000/api/auth/login
+Content-Type: application/json
+
+{
+ "email": "bobby@gmail.com",
+  "password": "123tu@8"
+}
+#### Addnote
+POST http://localhost:5000/api/notes/addnote̥
+Content-Type: application/json
+auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNmFlZDczMDRlNTA5NzNhZTgzMmRkMDNlIn0sImlhdCI6MTc5Mzk0NjM3Mn0.OnB2hDLRTkw3to7mQUdoLeq6X9PSNSwk7XZbDEXxlkk"
+
+{
+  "title": "My third note",
+  "description": "This is the description of my third note.",
+  "tag": "work"
+}
+#### Create user
+POST http://localhost:5000/api/auth/createuser
+Content-Type: application/json
+
+{
+  "name": "shreya",
+  "email": "shreya@gmail.com",
+  "password": "123tu@3"
+}
+
+#### Log in
+POST http://localhost:5000/api/auth/login
+Content-Type: application/json
+
+{
+  "email": "shreya@gmail.com",
+  "password": "123tu@3"
+}
+#### Addnote
+POST http://localhost:5000/api/notes/addnote
+Content-Type: application/json
+auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNmFlZDczMDRlNTA5NzNhZTgzMmRkMDNlIn0sImlhdCI6MTc5Mzk0NzA2MH0.AQKzBMO23FkiGMYMnJgj-e41Pa8IQHhkNBjoejS17jQ
+
+{
+  "title": "My fourth note",
+  "description": "This is the description of my fourth note.",
+  "tag": "work"
+}
+#### Log in
+POST http://localhost:5000/api/auth/login
+Content-Type: application/json
+
+{
+  
+ "email": "bobby@gmail.com",
+  "password": "123tu@8"
+}
+#### Addnote
+POST http://localhost:5000/api/notes/addnote
+Content-Type: application/json
+auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNmFlZDZiOWU2MTA5YWIwYmQ5MDljYmJkIn0sImlhdCI6MTc5Mzk0NzQ5MH0.BNV_XqTt7TRh0mfXJ3vSU-NlipwOb-fWwVWfKZSeEiI
+
+{
+  "title": "My fifth note",
+  "description": "This is the description of my fifth note.",
+  "tag": "work"
+}
+#### fetch all notes
+GET http://localhost:5000/api/notes/fe̥tchallnotes
+Content-Type: application/json
+auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNmFlZDZiOWU2MTA5YWIwYmQ5MDljYmJkIn0sImlhdCI6MTc5Mzk0NzQ5MH0.BNV_XqTt7TRh0mfXJ3vSU-NlipwOb-fWwVWfKZSeEiI
+
+#### fetch all notes
+
+GET http://localhost:5000/api/notes/fetchallnotes
+Content-Type: application/json
+auth-token:  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNmFmNTNiODcxMjRiZTYxODk2NjU3OGE5In0sImlhdCI6MTc5NDQ2MzgzM30.OPV_S2SgqBNbOME-0gm4L2SLGyIhUwSG7M2lkVf9KK8
+
+#### create user
+POST http://localhost:50̥00/api/auth/createuser
+Content-Type: application/json
+
+{
+  "name": "neha",
+  "email": "neha@gmail.com",
+  "password": "6547t367"
+}
+#### add note
+POST http://localhost:5000/̥api/notes/addnote
+Content-Type: application/json
+auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNmFmNTVhZDgxMjRiZTYxODk2NjU3OGFiIn0sImlhdCI6MTc5NDQ2NDQ3Mn0.FPlwe5LJPFXR0tVf21Kj-PZ3vnlQWe0eJ77Pp88GCDo 
+
+{
+  "title": "I love INDIA",
+  "description": "India is my country!",
+  "tag": "work"
+}
+### Log in
+POST http://localhost:5000/api/au̥th/login
+Content-Type: application/json
+
+{
+ "email": "david̥@test.com",
+  "password": "123456"
+}
+#### add note 
+POST http://localhost:5000/api/notes/addnote
+Content-Type: application/json
+auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNmFmNTNhNTMxMjRiZTYxODk2NjU3OGE1In0sImlhdCI6MTc5NDQ2NTgzM30.cCAS8ddlfzk2HKZ8EHRRm72fkA5iEiZtNLTH1hmppuw
+
+ {
+  "title": "Life",
+  "description": "Live your life happily!",
+  "tag": "personal"
+}
+#### update notes
+PUT http://localhost:5000/api/notes/updatenote̥/6af53a53124be618966578a5
+Content-Type: application/json
+auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNmFmNTNhNTMxMjRiZTYxODk2NjU3OGE1In0sImlhdCI6MTc5NDU0MTk3N30.vzXQfnGBiaV2jhRPR9gGWsEXkuEWHxkgMohSkCEjq-o
+
+{
+  
+  "title": "Updated note title",
+  "description": "Updated note description",
+  "tag": "updated"
+}
+

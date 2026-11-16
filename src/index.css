@@ -11,3 +11,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+i{
+  cursor: pointer;
+}
+
+.dark-mode .card,
+.dark-mode .modal-content,
+.dark-mode .form-control {
+  background-color: #2b3035;
+  color: white;
+  border-color: #495057;
+}
+.dark-mode .form-control::placeholder {
+  color: #adb5bd;
+}
+.dark-mode .btn-close {
+  filter: invert(1);
+}
