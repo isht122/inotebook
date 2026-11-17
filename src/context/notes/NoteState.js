@@ -3,7 +3,7 @@ import { useState } from 'react';
 
 
 const NoteState = (props) => {
-  const host = "http://localhost:5000"
+  const host = process.env.REACT_APP_API_URL || "http://localhost:5000"
   // const authToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNmFmNTVhZDgxMjRiZTYxODk2NjU3OGFiIn0sImlhdCI6MTc5NDQ2NDQ3Mn0.FPlwe5LJPFXR0tVf21Kj-PZ3vnlQWe0eJ77Pp88GCDo"
 
   // Sample note data
